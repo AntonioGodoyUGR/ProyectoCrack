@@ -15,6 +15,12 @@ int funcion_aprobadas () {
   return 0 ;
 }
 
+int bool_to_int(boolean bool){
+ if(bool){
+   return 0;
+ }
+  return 1;
+}
 int main(){
 
   bool chocobollo=true;
